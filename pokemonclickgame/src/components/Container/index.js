@@ -1,5 +1,5 @@
 import React from "react";
-import "./containerstyle.css";
+import "./style.css";
 
 function Container(props) {
   return <main className="container">{props.children}</main>;

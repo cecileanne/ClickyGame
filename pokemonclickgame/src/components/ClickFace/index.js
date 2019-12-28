@@ -1,5 +1,5 @@
 import React from "react";
-import "./clickfacestyle.css";
+import "./style.css";
 
 function ClickFace(props) {
   return (
@@ -7,7 +7,7 @@ function ClickFace(props) {
       <img
         alt={props.name}
         src={props.image}
-        onClicki={() => props.method(props.id)}
+        onClick={() => props.handleClick(props.id)}
       />
     </div>
   );
